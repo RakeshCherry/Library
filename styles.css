@@ -1,0 +1,104 @@
+body {
+    background-color: #f1de9e;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    background-color: #3A98B9;
+    padding: 5px;
+    z-index: 999;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navbar a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f1ecec;
+    font-weight: bold;
+  }
+  .navbar a:hover {
+    background-color: #1fabec;
+    border-radius: 10px;
+  }
+
+  .logo {
+    order: -1;
+    margin-right: auto;
+  }
+  
+.book_container {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 30px auto;
+    max-width: 60%;
+    padding: 20px;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 2px solid #ddd;
+  }
+
+
+.reg_container {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 30px auto;
+    max-width: 60%;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+.form_group {
+    width: 100%;
+    margin: 5px;
+    height: 70px;
+  }
+  .input-class {
+    width: 98%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+  }
+
+button {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+.social-links{
+    background-color: #bbdbf0;
+    padding: 5px;
+}
+
